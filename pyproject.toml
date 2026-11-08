@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snewpapers-tools"
+version = "0.1.0"
+description = "Compare snewpapers public API issues against American Stories"
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["snewpapers_tools"]
+
+[tool.setuptools.package-data]
+snewpapers_tools = ["prompts/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra"]

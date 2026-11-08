@@ -1,0 +1,15 @@
+# Pinned direct dependencies. Install with: pip install -r requirements.txt
+jupyterlab==4.6.4
+ipykernel==7.4.0
+ipywidgets==8.1.9
+httpx==0.28.1
+openai==3.37.0
+python-dotenv==1.2.4
+huggingface_hub==2.2.0
+rapidfuzz==3.14.6
+wordfreq==3.1.1
+pandas==3.1.0
+pillow==13.0.0
+pytest==9.1.1
+# this repo's helpers, editable so the notebook sees code changes
+-e .

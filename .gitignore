@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# downloaded and cached data (American Stories archives, API responses)
+data/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# jupyter
+.ipynb_checkpoints/
